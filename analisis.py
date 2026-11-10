@@ -1,13 +1,13 @@
 """
 Análisis de ventas e inventario de una farmacia pequeña (datos simulados).
 
-1. Carga los CSV de /data en una base SQLite (farmacia.db).
-2. Corre las consultas de sql/consultas.sql.
+1. Carga los CSV en una base SQLite (farmacia.db).
+2. Corre las consultas de consultas.sql.
 3. Calcula puntos de reorden con pandas.
-4. Guarda las gráficas en /img.
+4. Guarda las gráficas como PNG en la misma carpeta.
 
 Uso:
-    python data/generar_datos.py   # opcional, ya vienen los CSV
+    python generar_datos.py   # opcional, ya vienen los CSV
     python analisis.py
 """
 import sqlite3
@@ -20,7 +20,7 @@ import pandas as pd
 matplotlib.use("Agg")
 
 RAIZ = Path(__file__).parent
-DATA, IMG = RAIZ / "data", RAIZ / "img"
+DATA = IMG = RAIZ
 IMG.mkdir(exist_ok=True)
 pd.set_option("display.width", 120)
 
@@ -30,7 +30,7 @@ for tabla in ("productos", "ventas", "lotes"):
     pd.read_csv(DATA / f"{tabla}.csv").to_sql(tabla, con, if_exists="replace", index=False)
 
 # --- 2. Consultas SQL ----------------------------------------------------------
-consultas = [q.strip() for q in (RAIZ / "sql" / "consultas.sql").read_text(encoding="utf-8").split(";") if "SELECT" in q]
+consultas = [q.strip() for q in (RAIZ / "consultas.sql").read_text(encoding="utf-8").split(";") if "SELECT" in q]
 titulos = ["Ventas por mes", "Margen por categoría", "Top 10 productos por utilidad",
            "Clasificación ABC", "Lotes en riesgo de caducar"]
 res = {}

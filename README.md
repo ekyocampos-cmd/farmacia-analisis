@@ -2,7 +2,7 @@
 
 Este proyecto es un análisis de ventas, márgenes e inventario pensado para una farmacia independiente de barrio. Lo armé a partir de mi experiencia apoyando en la operación de una farmacia, donde vi que muchas decisiones (qué resurtir, qué se está caducando, de dónde sale la utilidad) se toman "a ojo".
 
-> **Los datos son simulados.** No son de ningún negocio real. Los generé con `data/generar_datos.py` para que tuvieran un comportamiento realista (pocos productos venden casi todo, temporada de gripa, márgenes distintos por categoría) sin exponer información privada.
+> **Los datos son simulados.** No son de ningún negocio real. Los generé con `generar_datos.py` para que tuvieran un comportamiento realista (pocos productos venden casi todo, temporada de gripa, márgenes distintos por categoría) sin exponer información privada.
 
 ## Preguntas que responde
 
@@ -19,24 +19,24 @@ Este proyecto es un análisis de ventas, márgenes e inventario pensado para una
 - **28 lotes con caducidad en menos de 90 días no alcanzan a venderse al ritmo actual**, con ~$101,000 MXN de costo en riesgo. Solo 4 lotes de patente concentran ~$61,000: ahí conviene negociar devolución con el proveedor o moverlos con promoción.
 - **La temporada de nov–feb vende ~25% más** que el resto del año, así que el inventario debe crecer antes de esos meses, no durante.
 
-![Ventas mensuales](img/ventas_mensuales.png)
-![Margen por categoría](img/margen_categoria.png)
-![Curva de Pareto](img/pareto_abc.png)
+![Ventas mensuales](ventas_mensuales.png)
+![Margen por categoría](margen_categoria.png)
+![Curva de Pareto](pareto_abc.png)
 
 ## Cómo está hecho
 
 | Parte | Herramienta | Archivo |
 | --- | --- | --- |
-| Generación de datos | Python (numpy, pandas) | `data/generar_datos.py` |
+| Generación de datos | Python (numpy, pandas) | `generar_datos.py` |
 | Base de datos | SQLite | se crea al correr `analisis.py` |
-| Consultas de negocio | SQL (JOINs, CTEs, funciones de ventana) | `sql/consultas.sql` |
+| Consultas de negocio | SQL (JOINs, CTEs, funciones de ventana) | `consultas.sql` |
 | Punto de reorden y gráficas | Python (pandas, matplotlib) | `analisis.py` |
 
 ## Cómo correrlo
 
 ```bash
 pip install pandas numpy matplotlib
-python data/generar_datos.py   # opcional: los CSV ya vienen incluidos
+python generar_datos.py   # opcional: los CSV ya vienen incluidos
 python analisis.py
 ```
 
