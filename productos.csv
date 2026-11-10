@@ -1,0 +1,121 @@
+producto_id,nombre,categoria,precio,costo
+1,GEN-001,Genérico,145.0,87.29
+2,GEN-002,Genérico,133.0,86.12
+3,GEN-003,Genérico,143.0,80.91
+4,GEN-004,Genérico,95.0,48.07
+5,GEN-005,Genérico,125.0,61.7
+6,GEN-006,Genérico,60.0,31.89
+7,GEN-007,Genérico,153.0,84.53
+8,GEN-008,Genérico,80.0,39.11
+9,GEN-009,Genérico,146.0,82.87
+10,GEN-010,Genérico,32.0,16.94
+11,GEN-011,Genérico,140.0,79.84
+12,GEN-012,Genérico,82.0,42.57
+13,GEN-013,Genérico,45.0,26.64
+14,GEN-014,Genérico,129.0,66.16
+15,GEN-015,Genérico,134.0,70.06
+16,GEN-016,Genérico,150.0,81.62
+17,GEN-017,Genérico,131.0,70.59
+18,GEN-018,Genérico,26.0,13.92
+19,GEN-019,Genérico,134.0,75.84
+20,GEN-020,Genérico,113.0,63.7
+21,GEN-021,Genérico,129.0,64.7
+22,GEN-022,Genérico,144.0,78.03
+23,GEN-023,Genérico,112.0,57.16
+24,GEN-024,Genérico,93.0,47.16
+25,GEN-025,Genérico,157.0,95.25
+26,GEN-026,Genérico,69.0,37.46
+27,GEN-027,Genérico,111.0,60.17
+28,GEN-028,Genérico,88.0,46.39
+29,GEN-029,Genérico,29.0,16.5
+30,GEN-030,Genérico,97.0,55.63
+31,GEN-031,Genérico,49.0,25.86
+32,GEN-032,Genérico,84.0,47.98
+33,GEN-033,Genérico,81.0,50.41
+34,GEN-034,Genérico,174.0,92.22
+35,GEN-035,Genérico,66.0,32.01
+36,GEN-036,Genérico,136.0,81.15
+37,GEN-037,Genérico,40.0,22.68
+38,GEN-038,Genérico,56.0,29.58
+39,GEN-039,Genérico,52.0,32.36
+40,GEN-040,Genérico,137.0,73.76
+41,GEN-041,Genérico,116.0,65.19
+42,GEN-042,Genérico,89.0,47.97
+43,GEN-043,Genérico,76.0,40.44
+44,GEN-044,Genérico,116.0,67.51
+45,GEN-045,Genérico,115.0,71.17
+46,PAT-001,Patente,138.0,123.31
+47,PAT-002,Patente,731.0,568.79
+48,PAT-003,Patente,503.0,402.04
+49,PAT-004,Patente,489.0,394.43
+50,PAT-005,Patente,526.0,447.42
+51,PAT-006,Patente,765.0,621.29
+52,PAT-007,Patente,552.0,498.86
+53,PAT-008,Patente,339.0,273.22
+54,PAT-009,Patente,720.0,555.02
+55,PAT-010,Patente,300.0,260.48
+56,PAT-011,Patente,409.0,352.18
+57,PAT-012,Patente,367.0,283.85
+58,PAT-013,Patente,522.0,429.1
+59,PAT-014,Patente,248.0,209.0
+60,PAT-015,Patente,894.0,725.37
+61,PAT-016,Patente,815.0,673.13
+62,PAT-017,Patente,366.0,296.11
+63,PAT-018,Patente,411.0,328.21
+64,PAT-019,Patente,325.0,286.4
+65,PAT-020,Patente,216.0,158.5
+66,PAT-021,Patente,260.0,194.2
+67,PAT-022,Patente,273.0,236.07
+68,PAT-023,Patente,878.0,720.18
+69,PAT-024,Patente,131.0,98.2
+70,PAT-025,Patente,649.0,598.71
+71,PAT-026,Patente,662.0,583.18
+72,PAT-027,Patente,747.0,578.33
+73,PAT-028,Patente,222.0,187.41
+74,PAT-029,Patente,501.0,397.34
+75,PAT-030,Patente,343.0,293.2
+76,CUI-001,Cuidado personal,102.0,65.4
+77,CUI-002,Cuidado personal,48.0,30.65
+78,CUI-003,Cuidado personal,107.0,74.11
+79,CUI-004,Cuidado personal,91.0,61.84
+80,CUI-005,Cuidado personal,44.0,30.2
+81,CUI-006,Cuidado personal,60.0,39.49
+82,CUI-007,Cuidado personal,143.0,77.14
+83,CUI-008,Cuidado personal,79.0,46.91
+84,CUI-009,Cuidado personal,143.0,103.44
+85,CUI-010,Cuidado personal,61.0,43.0
+86,CUI-011,Cuidado personal,44.0,31.18
+87,CUI-012,Cuidado personal,49.0,27.61
+88,CUI-013,Cuidado personal,49.0,29.95
+89,CUI-014,Cuidado personal,67.0,44.0
+90,CUI-015,Cuidado personal,33.0,21.89
+91,CUI-016,Cuidado personal,107.0,64.13
+92,CUI-017,Cuidado personal,71.0,45.96
+93,CUI-018,Cuidado personal,141.0,89.42
+94,CUI-019,Cuidado personal,61.0,33.27
+95,CUI-020,Cuidado personal,84.0,57.8
+96,DER-001,Dermocosmética,412.0,278.36
+97,DER-002,Dermocosmética,176.0,104.89
+98,DER-003,Dermocosmética,572.0,341.64
+99,DER-004,Dermocosmética,551.0,334.35
+100,DER-005,Dermocosmética,539.0,336.97
+101,DER-006,Dermocosmética,407.0,222.4
+102,DER-007,Dermocosmética,343.0,209.63
+103,DER-008,Dermocosmética,220.0,155.72
+104,DER-009,Dermocosmética,266.0,185.32
+105,DER-010,Dermocosmética,314.0,195.64
+106,DER-011,Dermocosmética,298.0,165.39
+107,DER-012,Dermocosmética,390.0,218.84
+108,BEB-001,Bebé,362.0,263.55
+109,BEB-002,Bebé,242.0,180.69
+110,BEB-003,Bebé,319.0,258.04
+111,BEB-004,Bebé,367.0,273.96
+112,BEB-005,Bebé,76.0,50.08
+113,BEB-006,Bebé,396.0,298.33
+114,BEB-007,Bebé,344.0,232.01
+115,BEB-008,Bebé,342.0,273.83
+116,BEB-009,Bebé,264.0,206.86
+117,BEB-010,Bebé,105.0,72.68
+118,BEB-011,Bebé,217.0,159.45
+119,BEB-012,Bebé,344.0,230.2
+120,BEB-013,Bebé,394.0,283.86
